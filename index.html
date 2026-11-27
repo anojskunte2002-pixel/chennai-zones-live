@@ -2,11 +2,32 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Tamil Nadu Zone Supervisors</title>
-<meta http-equiv="refresh" content="0; url=Chennai_Response_Zones.html">
-<script>location.replace('Chennai_Response_Zones.html');</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zone Supervisor Planner</title>
+<link rel="icon" href="data:,">
+<style>
+:root{--bg:#f6f5f1;--panel:#fff;--ink:#1d211f;--muted:#5d645f;--line:#dcdad2;--accent:#c4512f}
+@media (prefers-color-scheme:dark){:root{--bg:#141716;--panel:#1d2120;--ink:#e9ece9;--muted:#9aa39d;--line:#2f3532;--accent:#ef8b6a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 16px}
+h1{font-size:1.5rem;margin:0 0 6px}
+p{color:var(--muted);margin:0 0 24px}
+a.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:0 0 12px;color:inherit;text-decoration:none}
+a.card:hover,a.card:focus-visible{border-color:var(--accent);outline:none}
+a.card b{display:block;font-size:1.05rem;color:var(--accent)}
+a.card span{color:var(--muted);font-size:.92rem}
+small{display:block;color:var(--muted);margin-top:20px}
+</style>
 </head>
 <body>
-<p>Opening the <a href="Chennai_Response_Zones.html">Tamil Nadu zone supervisors</a> planner…</p>
+<main>
+<h1>Zone supervisor planner</h1>
+<p>TASMAC outlets grouped into zones, one zone supervisor each, with daily routes and travel allowance. A zone may cross a region line inside its half, never between H1 and H2.</p>
+<a class="card" href="H1_Zone_Supervisors.html"><b>H1: Chennai, Madurai, Trichy</b><span>2,530 outlets</span></a>
+<a class="card" href="H2_Zone_Supervisors.html"><b>H2: Coimbatore, Salem</b><span>1,518 outlets</span></a>
+<a class="card" href="TN_Zone_Supervisors.html"><b>Tamil Nadu: H1 + H2</b><span>4,048 outlets, both halves zoned separately on one map (larger page, slower to open)</span></a>
+<small>Each page is one file and opens in a browser; the first load takes 15-40 seconds while the zones are formed.</small>
+</main>
 </body>
 </html>
